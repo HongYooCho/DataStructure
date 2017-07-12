@@ -8,7 +8,7 @@
 3. middleNode는 length가 짝수 일때만 다음 노드로 이동.
 즉 middleNode는 currentNode가 탐색하는 것의 절반만큼만 이동하므로 middle point를 찝어낼 수 있다.
 <br>그리고 길이가 홀수인 경우 middleNode를 한번더 다음으로 이동하면서 정중앙을 찝어낼 수 있다.
-`while(currentNode->next!=null){`<br>
+<br>`while(currentNode->next!=null){`<br>
 	`length++;`<br>
 	`If(legnth%2==0)`<br>
 	 ` middleNode=middleNode->next;`<br>
